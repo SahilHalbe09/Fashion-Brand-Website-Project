@@ -5,32 +5,36 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arima&family=Cinzel:wght@500&display=swap"
-            rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Arima&family=Cinzel:wght@500&display=swap" rel="stylesheet">
+
+        <!-- Tailwind Script CDN -->
         <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- CSS  -->
+        <link rel="stylesheet" href="/assets/index.5c099ff0.css">
         <title>Tailwind Tutorial: E-Com Landing Page</title>
-      <link rel="stylesheet" href="/assets/index.5c099ff0.css">
     </head>
 
-    <body class="bg-fuchsia-200 home-page">
-        <div class="container-fluid">
+    <body class="bg-fuchsia-200">
+
+        <!-- Navbar -->
+        <div class="container-fluid home-page">
             <nav class="px-1 bg-slate-900  text-white text-lg flex justify-between">
-                <img src="/assets/LESSO.9fc0dd8a.png" class="h-20 ml-10 mt-1.5 cursor-pointer" alt="">
+                <img src="/assets/LESSO.png" class="h-20 ml-10 mt-1.5 cursor-pointer" alt="">
                 <ul class="mr-10 flex justify-end">
-                    <a href="#" class="m-8 cursor-pointer"><button
-                            class="hover:text-slate-400 transition duration-200">Home</button></a>
-                    <a href="#products" class="m-8 cursor-pointer"><button
-                            class="hover:text-slate-400 transition duration-200">Shop</button></a>
-                    <a href="#" class="m-8 cursor-pointer"><button
-                            class="hover:text-slate-400 transition duration-200">Sign in</button></a>
-                    <a href="#footer" class="m-8 cursor-pointer"><button
-                            class="hover:text-slate-400 transition duration-200">Contact us</button></a>
+                    <a href="#" class="m-8 cursor-pointer"><button class="hover:text-slate-400 transition duration-200">Home</button></a>
+                    <a href="#products" class="m-8 cursor-pointer"><button class="hover:text-slate-400 transition duration-200">Shop</button></a>
+                    <a href="#" class="m-8 cursor-pointer"><button class="hover:text-slate-400 transition duration-200">Sign in</button></a>
+                    <a href="#footer" class="m-8 cursor-pointer"><button class="hover:text-slate-400 transition duration-200">Contact us</button></a>
                 </ul>
             </nav>
         </div>
+
+        <!-- Page-1 Home Page -->
         <main class="flex">
             <div class="main container-fluid mx-auto p-10">
                 <h1 class="text-slate-900 text-8xl font-serif mt-44 mb-6">EXPLORE FASION</h1>
@@ -38,106 +42,138 @@
                     class="font-mono p-3 ml-2 text-2xl outline ring-2 ring-slate-900 hover:text-white hover:bg-slate-900 transition duration-200 scroll-smooth">Discover
                     Newest Fasion 🡆</a>
             </div>
+
+            <!-- Model img -->
             <div class="model-img p-32">
-                <img src="/assets/website-model.7e8a1435.jpg" alt="">
+                <img src="/assets/model.jpg" alt="">
             </div>
         </main>
+
+        <!-- Page-2 Products -->
         <section id="products">
+
+            <!-- Title -->
             <h1 class="products-heading text-center text-slate-900 text-4xl m-10 py-10 mb-10 font-serif">NEW COLLECTION
             </h1>
+
+            <!-- Produts Grid -->
             <div class="products-grid container mx-auto px-24">
                 <div class="grid grid-cols-4 gap-16 font-bold text-lg text-slate-900 leading-9">
+                    
+                    <!-- Product-1 -->
                     <div class="product-1 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Palma Dress in Begonia.3cbe314b.jpeg" class="rounded-t-md"
+                            <img src="/assets/PalmaDress.jpeg" class="rounded-t-md"
                                 alt="Product image">
                             <h1 class="mt-7">Palma Dress in Begonia</h1>
                             <p>$ 2,600</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-2 -->
                     <div class="product-2 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Helena Dress in Yellow Rose.ac9739b6.jpeg"
+                            <img src="/assets/HelenaDress.jpeg"
                                 class="rounded-t-md" alt="Product image">
                             <h1 class="mt-7">Helena Dress in Yellow Rose</h1>
                             <p>$ 3,000</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-3 -->
                     <div class="product-3 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Josephine Coat in Grey Plaid.dff2a7d9.jpeg"
+                            <img src="/assets/JosephineCoat.jpeg"
                                 class="rounded-t-md" alt="Product image">
                             <h1 class="mt-7">Josephine Coat in Grey Plaid</h1>
                             <p>$ 5,499</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-4 -->
                     <div class="product-4 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Laurel Dress in Navy Plaid.c70de27c.jpeg" class="rounded-t-md"
+                            <img src="/assets/LaurelDress.jpeg" class="rounded-t-md"
                                 alt="Product image">
                             <h1 class="mt-7">Laurel Dress in Navy Plaid</h1>
                             <p>$ 2,000</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-5 -->
                     <div class="product-5 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Lila Top in Safari.e3cf6a00.jpeg" class="rounded-t-md"
+                            <img src="/assets/LilaTopSafari.jpeg" class="rounded-t-md"
                                 alt="Product image">
                             <h1 class="mt-7">Lila Top in Safari</h1>
                             <p>$ 1,600</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-6 -->
                     <div class="product-6 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Lila Top in White.1992ce29.jpeg" class="rounded-t-md"
+                            <img src="/assets/LilaTopWhite.jpeg" class="rounded-t-md"
                                 alt="Product image">
                             <h1 class="mt-7">Lila Top in White</h1>
                             <p>$ 1,299</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-7 -->
                     <div class="product-7 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Luxury Clothing & Jewelry For Women By Women (1).738171e4.jpeg"
+                            <img src="/assets/LuxuryClothing1.jpeg"
                                 class="rounded-t-md" alt="Product image">
                             <h1 class="mt-7">Patterned Shirt in Gray</h1>
                             <p>$ 1,900</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-8 -->
                     <div class="product-8 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Charlotte Top in Black Gold.7766106a.jpeg"
+                            <img src="/assets/CharlotteTopBlack.jpeg"
                                 class="rounded-t-md" alt="Product image">
                             <h1 class="mt-7">Charlotte Top in Black Gold</h1>
                             <p>$ 2,700</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-9 -->
                     <div class="product-9 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Violetta Dress in Black Hibiscus.05057367.jpeg"
+                            <img src="/assets/ViolettaDress.jpeg"
                                 class="rounded-t-md" alt="Product image">
                             <h1 class="mt-7">Violetta Dress in Black Hibiscus</h1>
                             <p>$ 3,200</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-10 -->
                     <div class="product-10 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Luxury Clothing & Jewelry For Women By Women.e32967d4.jpeg"
+                            <img src="/assets/LuxuryClothing2.jpeg"
                                 class="rounded-t-md" alt="Product image">
                             <h1 class="mt-7">Charlotte Top in White</h1>
                             <p>$ 2,400</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-11 -->
                     <div class="product-11 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Paola Skirt in Suntan.53391844.jpeg" class="rounded-t-md"
+                            <img src="/assets/PaolaSkirt.jpeg" class="rounded-t-md"
                                 alt="Product image">
                             <h1 class="mt-7">Paola Skirt in Suntan</h1>
                             <p>$ 3,700</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-12 -->
                     <div class="product-12 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Shop Mille - Victoria Dress in Black.61ac78aa.jpeg" class="rounded-t-md"
+                            <img src="/assets/VictoriaDress.jpeg" class="rounded-t-md"
                                 alt="Product image">
                             <h1 class="mt-7">Victoria Dress in Black</h1>
                             <p>$ 2,900</p>
@@ -145,101 +181,128 @@
                     </div>
                 </div>
             </div>
-            <h1 class="products-heading text-center text-slate-900 text-4xl m-10 py-10 mb-10 mt-24 font-serif">FASION
-                ESSENTIALS & LIFESTYLE</h1>
+
+            <!-- Page-2 Other Products -->
+            <h1 class="products-heading text-center text-slate-900 text-4xl m-10 py-10 mb-10 mt-24 font-serif">FASION ESSENTIALS & LIFESTYLE</h1>
+            
+            <!-- Produts Grid -->
             <div class="products-grid container mx-auto px-24">
                 <div class="grid grid-cols-4 gap-16 font-bold text-lg text-slate-900 leading-9">
+                    
+                    <!-- Product-1 -->
                     <div class="product-1 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/4db7628f-6a03-489b-a901-67501181089d.496091e4.png"
+                            <img src="/assets/handbag1.png"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Baguette Leather Handbag</h1>
                             <p>$ 600</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-2 -->
                     <div class="product-2 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Luxury Bags.385dea30.jpeg" class="rounded-t-md h-2/3 w-full"
+                            <img src="/assets/LuxuryBag.jpeg" class="rounded-t-md h-2/3 w-full"
                                 alt="Product image">
                             <h1 class="mt-7">Minaudière Purse</h1>
                             <p>$ 349</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-3 -->
                     <div class="product-3 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Mai Soli - Luxury Handbag Photography.e3db86e9.png"
+                            <img src="/assets/LuxuryHandbag.png"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Lesso Tote Bag</h1>
                             <p>$ 1,000</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-4 -->
                     <div class="product-4 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Sac à main blanc.8a8fe37a.jpeg" class="rounded-t-md h-2/3 w-full"
+                            <img src="/assets/Sacblanc.jpeg" class="rounded-t-md h-2/3 w-full"
                                 alt="Product image">
                             <h1 class="mt-7">Satchel Bauletto</h1>
                             <p>$ 499</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-5 -->
                     <div class="product-5 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Guerlain Rouge G Long-Lasting Lipstick - Glamorous Cherry.534cac42.jpeg"
+                            <img src="/assets/GuerlainRougeLipstick.jpeg"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Lesso Crème Formula Lipstick</h1>
                             <p>$ 300</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-6 -->
                     <div class="product-6 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Charlotte Tilbury Pillow Talk Lipstick Review + Swatch - PaleGirlRambling.12ae8fca.jpeg"
+                            <img src="/assets/CharlotteLipstick.jpeg"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Lesso Matte Stick</h1>
                             <p>$ 249</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-7 -->
                     <div class="product-7 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Cosmetics - London makeup photographer.jpeg"
+                            <img src="/assets/Londonmakeup.jpeg"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Satin Lipstick Dark Red</h1>
                             <p>$ 549</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-8 -->
                     <div class="product-8 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Maurice Marinot.16d827af.jpeg" class="rounded-t-md h-2/3 w-full"
+                            <img src="/assets/MauriceMarinot.jpeg" class="rounded-t-md h-2/3 w-full"
                                 alt="Product image">
                             <h1 class="mt-7">Coco Mademoiselle Luxur</h1>
                             <p>$ 700</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-9 -->
                     <div class="product-9 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Love - Chloé.b2af11a6.jpeg" class="rounded-t-md h-2/3 w-full"
+                            <img src="/assets/Chloe.jpeg" class="rounded-t-md h-2/3 w-full"
                                 alt="Product image">
                             <h1 class="mt-7">Souvenirs de Tunisie Eau Perfume</h1>
                             <p>$ 540</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-10 -->
                     <div class="product-10 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/Natalia Shilova _ Overview _ Margot de Roquefeuil - Artist Management.d8c0813c.png"
+                            <img src="/assets/NataliaShilova.png"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Cloud Eau De Perfume</h1>
                             <p>$ 699</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-11 -->
                     <div class="product-11 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/18 Best Musk Perfumes_ Musk Perfumes For Women 2022.f7d74c42.png"
+                            <img src="/assets/MuskPerfumes.png"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Miss Dior Blooming Bouquet</h1>
                             <p>$ 1000</p>
                         </a>
                     </div>
+                    
+                    <!-- Product-12 -->
                     <div class="product-12 hover:opacity-90">
                         <a href="" class="cursor-auto">
-                            <img src="/assets/0a62bb18-6fa0-4630-ae55-6adb04f7e330.d65f967d.jpeg"
+                            <img src="/assets/perfume1.jpeg.jpeg"
                                 class="rounded-t-md h-2/3 w-full" alt="Product image">
                             <h1 class="mt-7">Flowerbomb Eau de Perfume</h1>
                             <p>$ 499</p>
@@ -248,17 +311,24 @@
                 </div>
             </div>
         </section>
+
+        <!-- Photo Gallery -->
         <section id="Galary">
+
+            <!-- Fashion Shows -->
             <div class="mx-auto text-center text-fuchsia-100 font-serif bg-slate-900">
-                <h1 class="text-5xl font-thin py-20 pb-16 leading-loose">Make your looks perfect with<br><em
-                        class="text-6xl">“ LESSO FASION ”</em></h1>
-                <p class="fashion-quote text-lg pb-16">"Fashion is not something that exists in dresses only. Fashion is
-                    in the sky, in the street. Fashion has to do with ideas, the way we live, what is happening."</p>
+
+                <!-- Title & Desciption -->
+                <h1 class="text-5xl font-thin py-20 pb-16 leading-loose">Make your looks perfect with<br><em class="text-6xl">“ LESSO FASION ”</em></h1>
+                <p class="fashion-quote text-lg pb-16">"Fashion is not something that exists in dresses only. Fashion is in the sky, in the street. Fashion has to do with ideas, the way we live, what is happening."</p>
                 <hr>
+
+                <!-- Fashion Shows Gallery -->
+
+                <!-- Show-1 -->
                 <div class="container px-32 pb-5 py-20 bg-slate-900 text-slate-400 text-2xl">
                     <div class="fashion-quotes h-96 mb-28  text-left">
-                        <img src="/assets/Elie Saab Spring 2017 Couture Fashion Show.288b9591.jpeg"
-                            class="rounded-lg h-full float-left mr-16" alt="">
+                        <img src="/assets/Elie Saab Spring 2017 Couture Fashion Show.288b9591.jpeg" class="rounded-lg h-full float-left mr-16" alt="">
                         <h1>NEW YORK FASHION WEEK 2021</h1>
                         <br>
                         <p>Picnic baskets and straw-brimmed hats come to mind upon seeing Dunbar's Lisa Smith in this
@@ -270,9 +340,10 @@
                             Lisa is a member of the Lucky Clovers 4-H Club.
                         </p>
                     </div>
+
+                    <!-- Show-2 -->
                     <div class="fashion-quotes h-96 mb-28 text-left">
-                        <img src="/assets/Michelle Dantas Tries On Tennis Inspired Looks for Modern Luxury.83b534e5.jpeg"
-                            class="rounded-lg h-full float-right ml-16" alt="">
+                        <img src="/assets/Michelle Dantas Tries On Tennis Inspired Looks for Modern Luxury.83b534e5.jpeg" class="rounded-lg h-full float-right ml-16" alt="">
                         <h1>PITTI IMMAGINE UOMO 2021</h1>
                         <br>
                         <p>When Jennifer Snow goes to garage sales and auctions, she likes to collect handkerchiefs and
@@ -284,9 +355,10 @@
                             Finally she assembled the vest. Isn't Jennifer's vintage vest a great heirloom treasure?
                         </p>
                     </div>
+
+                    <!-- Show-3 -->
                     <div class="fashion-quotes h-96 mb-28  text-left">
-                        <img src="/assets/Givenchy Pleated Gown _ Clothia.80763265.jpeg"
-                            class="rounded-lg h-full float-left mr-16" alt="">
+                        <img src="/assets/Givenchy Pleated Gown _ Clothia.80763265.jpeg" class="rounded-lg h-full float-left mr-16" alt="">
                         <h1>CFDA FASHION AWARDS 2021</h1>
                         <br>
                         <p>"Plum-crazy!" might describe the reaction of Maria Gonzales's friends to her picture perfect
@@ -297,9 +369,10 @@
                             right" finishing touch.
                         </p>
                     </div>
+
+                    <!-- Show-4 -->
                     <div class="fashion-quotes h-96 mb-28 text-left">
-                        <img src="/assets/ea4290b1-48c4-48fe-8022-dceeba4b5abc.c2f5761d.jpeg"
-                            class="rounded-lg h-full float-right ml-16" alt="">
+                        <img src="/assets/ea4290b1-48c4-48fe-8022-dceeba4b5abc.c2f5761d.jpeg" class="rounded-lg h-full float-right ml-16" alt="">
                         <h1>MILAN FASHION WEEK 2021</h1>
                         <br>
                         <p>Short and sweet - that's the cool summery look of Otoe County's Wendy Moore. Wendy chose
@@ -312,57 +385,74 @@
                 </div>
             </div>
         </section>
+
+        <!-- Photo Gallery -->
         <section id="gallery">
             <h1 class="text-center font-serif text-4xl bg-fuchsia-100 pt-16">PHOTO GALLERY 2022</h1>
             <div class="photo-gallery container-fluid px-32 py-20 grid grid-cols-4 gap-16 bg-fuchsia-100">
+                
+                <!-- Image-1 -->
                 <img src="/assets/Winter White Styles _ White Winter Trends For Women.fa6bf299.jpeg"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
-                <img src="/assets/c36f96ea-adc3-4b0a-8502-0814081941e9.a289a45f.png"
+                
+                <!-- Image-2 -->
+                    <img src="/assets/c36f96ea-adc3-4b0a-8502-0814081941e9.a289a45f.png"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
-                <img src="/assets/Saint + Sofia.bdab3257.jpeg"
+                
+                <!-- Image-3 -->
+                    <img src="/assets/Saint + Sofia.bdab3257.jpeg"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
-                <img src="/assets/Fendi  Modetrends von der Fashion Week Mailand Frühjahr_Sommer 2022.94a44f4e.jpeg"
+                
+                <!-- Image-4 -->
+                    <img src="/assets/Fendi  Modetrends von der Fashion Week Mailand Frühjahr_Sommer 2022.94a44f4e.jpeg"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
-                <img src="/assets/Luxury Outfits _ Luxury Mindset _ Luxury Fashion _ Luxury Lifestyle _ Fashion Blog _ Luxury Shoes.32149605.jpeg"
+                
+                <!-- Image-5 -->
+                    <img src="/assets/Luxury Outfits _ Luxury Mindset _ Luxury Fashion _ Luxury Lifestyle _ Fashion Blog _ Luxury Shoes.32149605.jpeg"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
-                <img src="/assets/Olga Rubio Dalmau for Vogue Ukraine with Linda Novotna.2fa53c82.png"
+                
+                <!-- Image-6 -->
+                    <img src="/assets/Olga Rubio Dalmau for Vogue Ukraine with Linda Novotna.2fa53c82.png"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
-                <img src="/assets/Eluxe Magazine.e3ebfdc1.jpeg"
+                
+                <!-- Image-7 -->
+                    <img src="/assets/Eluxe Magazine.e3ebfdc1.jpeg"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
-                <img src="/assets/9 Tips On How to Look Luxurious Without Breaking The Bank.2ebb0930.jpeg"
+                
+                <!-- Image-8 -->
+                    <img src="/assets/9 Tips On How to Look Luxurious Without Breaking The Bank.2ebb0930.jpeg"
                     class="rounded-lg h-96 hover:shadow-md hover:shadow-gray-500" alt="">
             </div>
         </section>
+
+
+        <!-- Footer Section -->
         <section id="footer">
             <footer class=" container-fluid text-center lg:text-left bg-slate-900 text-slate-400">
                 <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-400">
                     <div class="mx-6 py-10 text-center md:text-left">
                         <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                            <!-- Company Description -->
                             <div class="">
-                                <h6
-                                    class="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start">
+                                <h6 class="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start">
                                     LESSO FASION CORP LIM
                                 </h6>
                                 <p>LESSO is a luxurious clothing fashion label based in India. LESSO has maintained the
-                                    brand legacy for over 20 years and will continue to do so.</p>
+                                    brand legacy for over 20 years and will continue to do so.
+                                </p>
                             </div>
+
+                            <!-- SHOP SECTION -->
                             <div class="">
-                                <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                                    SHOP
-                                </h6>
-                                <p class="mb-4">
-                                    <a href="#!" class="text-gray-600">Men</a>
-                                </p>
-                                <p class="mb-4">
-                                    <a href="#!" class="text-gray-600">Women</a>
-                                </p>
-                                <p class="mb-4">
-                                    <a href="#!" class="text-gray-600">Kids</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-gray-600">Home & Lifestyle</a>
-                                </p>
+                                <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">SHOP</h6>
+                                <p class="mb-4"><a href="#!" class="text-gray-600">Men</a></p>
+                                <p class="mb-4"><a href="#!" class="text-gray-600">Women</a></p>
+                                <p class="mb-4"><a href="#!" class="text-gray-600">Kids</a></p>
+                                <p><a href="#!" class="text-gray-600">Home & Lifestyle</a></p>
                             </div>
+
+                            <!-- Useful Links Section -->
                             <div class="">
                                 <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                                     Useful links
@@ -380,10 +470,14 @@
                                     <a href="#!" class="text-gray-600">Help</a>
                                 </p>
                             </div>
+
+                            <!-- Contact Section -->
                             <div class="">
                                 <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                                     Contact
                                 </h6>
+
+                                <!-- Adress -->
                                 <p class="flex items-center justify-center md:justify-start mb-4">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
                                         class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -394,6 +488,8 @@
                                     </svg>
                                     Pune, Maharashtra, India
                                 </p>
+
+                                <!-- Mail-Id -->
                                 <p class="flex items-center justify-center md:justify-start mb-4">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
                                         class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -404,6 +500,8 @@
                                     </svg>
                                     contact@lesso.com
                                 </p>
+
+                                <!-- Number -->
                                 <p class="flex items-center justify-center md:justify-start mb-4">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
                                         class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -418,6 +516,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Copyright Section -->
                 <div class="text-center p-6 bg-slate-900">
                     <span>© 2021 Copyright:</span>
                     <a class="text-gray-600 font-semibold" href="#">LESSO FASHION</a>
